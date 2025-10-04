@@ -1,27 +1,116 @@
 <!DOCTYPE html>
 <html lang="en">
-  <link rel="stylesheet" href="project.css" />
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Daniel Parsons</title>
+    <script src="script.js" defer></script>
   </head>
+  <link rel="stylesheet" href="home.css" />
   <body>
-    <p>Greetings and Citations</p>
-    <center>
-      <section>
-        <div class="container">
-          <div index="0" class="cell0"><p class="celltext">0</p></div>
-          <div index="1" class="cell0"><p class="celltext">1</p></div>
-          <div index="2" class="cell0"><p class="celltext">2</p></div>
-          <div index="3" class="cell0"><p class="celltext">3</p></div>
-          <div index="4" class="cell0"><p class="celltext">4</p></div>
-          <div index="5" class="cell0"><p class="celltext">5</p></div>
-          <div index="6" class="cell0"><p class="celltext">6</p></div>
-          <div index="7" class="cell0"><p class="celltext">7</p></div>
+    <section id="homediv" class="homecontainer">
+      <section class="home" id="home1">
+        <img src="PXL_20250821_143821433 (1).jpg" alt="A picture of Daniel" />
+        <div class="text">
+          <h1 class="Hhead">Daniel Parsons</h1>
+          <p class="hp">Student | Programmer</p>
+          <p class="hp">
+            Welcome to my site! Here you'll find information about me and my
+            work. Check out my portfolio to see the projects I've been working
+            on.
+          </p>
         </div>
+
+        <button id="portfolioButton">Portfolio</button>
       </section>
-    </center>
-    <script src="script.js"></script>
+    </section>
+
+    <div id="portfolio">
+      <header class="sticky-header">
+        <div class="header-text">
+          <h1 class="title">Daniel Parsons</h1>
+          <p class="title-mini">Student | Programmer</p>
+        </div>
+        <nav class="nav-links">
+          <a href="index.html">Home</a>
+          <a href="#about">About</a>
+          <a href="#contact">Contact</a>
+        </nav>
+      </header>
+      <section id="about" class="about-section">
+        <h2>About</h2>
+        <p>
+          Hello! My name is Daniel Parsons, and I’m currently studying Computer
+          Science, Mathematics, Further Mathematics, and Physics at
+          <a href="https://farnborough.ac.uk/" target="_blank"
+            >Farnborough Sixth Form College</a
+          >.
+        </p>
+        <p>
+          I have a strong passion for programming and enjoy tackling challenging
+          mathematical problems. I’m always looking for new ways to expand my
+          knowledge and apply logical thinking to creative solutions.
+        </p>
+      </section>
+      <section id="skills">
+        <h3>Skills</h3>
+        <ul>
+          <li>Programming Languages: Python, Java, C++</li>
+          <li>Web Development: HTML, CSS, JavaScript</li>
+          <li>Mathematical Problem Solving</li>
+          <li>Data Analysis and Visualization</li>
+        </ul>
+      </section>
+      <section id="education">
+        <h3>Education</h3>
+
+        <p>
+          I am currently pursuing my A-levels at Farnborough Sixth Form College,
+          where I am studying Computer Science, Mathematics, Further
+          Mathematics, and Physics. I have consistently achieved high grades in
+          my coursework and exams, demonstrating my dedication to academic
+          excellence.
+        </p>
+        <p>
+          In addition to my formal education, I have taken part in the
+          Intermediate UKMT Maths Challenge, and I am preparing to participate
+          in the Senior UKMT Maths Challenge soon. These experiences allow me to
+          further develop my problem-solving skills and apply mathematics in
+          creative and challenging ways.
+        </p>
+      </section>
+      <section id="hobbies">
+        <h3>Hobbies</h3>
+        <p>
+          I enjoy challenging myself through skills that require problem-solving
+          and strategy
+        </p>
+        <ul>
+          <li>
+            <strong>Chess:</strong> I enjoy playing chess as it shrpens my
+            logical thinking, problem-solving skills, pattern recognition and
+            planning.
+          </li>
+          <li>
+            <strong>Programming:</strong> I enjoy programming as it allows me to
+            be creative and solve problems. I like to work on personal projects
+            and explore new technologies to improve my skills.
+          </li>
+        </ul>
+      </section>
+      <section id="contact">
+        <h3>Contact</h3>
+        <p>
+          Feel free to reach out to me at
+          <a href="danielosagieparsons@gmail.com" target="_blank"
+            >danielosagieparsons@gmail.com</a
+          >.
+        </p>
+      </section>
+
+      <footer>
+        <p>Copyright © 2025</p>
+      </footer>
+    </div>
   </body>
 </html>
