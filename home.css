@@ -92,7 +92,23 @@ button:hover{
     z-index: 1000; /* Ensure it stays above other content */
     display: flex;
     justify-content: space-between;
+    align-items: center;
+    margin: 20px;
+    
     border-radius: 20px;
+}
+.link{
+    margin-right: 20px;
+    padding: 0% 10px;
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+.link:hover{
+    color: rgb(198, 255, 192);
+    transition: 0.3s;
 }
 .title{
     font-weight: bold;
@@ -114,6 +130,8 @@ button:hover{
     float: right;
     margin-right: 20px;
     text-align: right;
+    display: flex;
+    gap: 20px;  
 }
 .headertext{
     display: flex;
@@ -123,9 +141,87 @@ button:hover{
 }
 .about-section{
     
-    background-color: rgb(255, 246, 235);
+    background-color: rgb(28, 42, 55);
     padding: 20px;
     border-radius: 20px;
     margin: 20px;
     font:Cascadia Code;
+    color: white;
+    transition: 0.3s;
+
+}
+.about-section:hover{
+
+    background-color: rgb(41, 62, 81);
+    
+    transition: 0.3s;
+    box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.2);
+    transform: scale(1.02);
+
+
+}
+.skills-section{
+    flex: wrap;
+    background-color: rgb(110, 158, 131);
+    padding: 20px;
+    border-radius: 20px;
+    margin: 20px;
+    font:Cascadia Code;
+    width: 500px;
+    transition: 0.3s;
+}   
+.skills-section:hover{
+    background-color: rgb(150, 198, 171);
+    transition: 0.3s;
+    box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.2);
+    transform: scale(1.02);
+}
+.education-section{
+    background-color: rgb(28, 42, 55);
+    padding: 20px;
+    border-radius: 20px;
+    margin: 20px;
+    font:Cascadia Code;
+    color: white;
+    transition: 0.3s;
+}
+.education-section:hover{
+    background-color: rgb(41, 62, 81);
+    transition: 0.3s;
+    box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.2);
+    transform: scale(1.02);
+}
+.hobbies-section{
+    
+   flex: wrap;
+    background-color: rgb(110, 158, 131);
+    padding: 20px;
+    border-radius: 20px;
+    margin: 20px;
+    font:Cascadia Code;
+   
+    transition: 0.3s;
+}
+.hobbies-section:hover{
+    background-color: rgb(150, 198, 171);
+    transition: 0.3s;
+    box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.2);
+    transform: scale(1.02);
+}
+.contact-section{
+    background-color: rgb(39, 39, 39);
+    padding: 10px 0;
+    font:Cascadia Code;
+     
+    display: flex;
+    justify-content: space-between;
+    border-radius: 20px;
+    margin: 20px;
+    padding: 20px;
+    color: rgb(135, 67, 67);
+}   
+body{
+    margin: 0;
+    font-family: 'Cascadia Code', monospace;
+    background-color: rgb(80, 79, 78);
 }
